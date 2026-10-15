@@ -1,16 +1,62 @@
-Esse é um trabalho que estou desenvolvendo com meu amigo Vinícius Fernandes.A ideia é criar um blog de notícias, para isso utilizamos duas APIs, uma para o setor de mercado financeiro
-e a outra do NYTimes, ambas fornecem notícias atuais de seus mercados que são inseridas automáticamente ao recarregar a página.
+# 📰 Blog de Notícias
 
-Tecnologias que estamos Utilizando
-- Javascript
-- React
-- Tailwind
-- Poastman (testando os endpoints)
+Aplicação web desenvolvida por João Vitor Berger e Vinícius Fernandes, com o objetivo de centralizar notícias do mercado financeiro e notícias internacionais em uma única interface.
 
-Para executar o projeto
-- Clone esse repositório
-- Abra com o VsCode esse repositório
-- Ao abrir o VsCode pressione CTRL + "
-- Instale o node_modules
-- Instale o Vite npm create vite@latest
+O projeto integra duas APIs externas: uma voltada ao mercado financeiro e outra do **The New York Times (NYT)**. As notícias são obtidas por meio de requisições HTTP e exibidas na interface durante o carregamento da aplicação.
 
+## 🛠️ Tecnologias utilizadas
+
+- **JavaScript** — lógica da aplicação e consumo de APIs.
+- **React** — desenvolvimento da interface por meio de componentes.
+- **Tailwind CSS** — estilização da interface.
+- **Vite** — ambiente de desenvolvimento e ferramenta de build.
+- **Postman** — testes e validação dos endpoints das APIs.
+
+## ⚙️ Instalação e execução
+
+**Pré-requisitos:** Node.js e Git instalados.
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/JoaoVitorBerger/projetoBlog.git
+   ```
+
+2. Entre no diretório do projeto:
+
+   ```bash
+   cd projetoBlog
+   ```
+
+3. Acesse a pasta da aplicação React:
+
+   ```bash
+   cd Blog
+   ```
+
+4. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+5. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Acesse no navegador o endereço local exibido pelo Vite no terminal.
+
+## 🔌 Integração com APIs
+
+A aplicação utiliza duas fontes externas de notícias:
+
+- **API de mercado financeiro:** obtenção de notícias relacionadas ao setor financeiro.
+- **API do The New York Times:** obtenção de notícias publicadas pelo jornal.
+
+Os dados são carregados dinamicamente por meio de requisições às APIs, permitindo a atualização das notícias ao recarregar a página.
+
+## 👥 Colaboração
+
+Projeto desenvolvido em colaboração por **João Vitor Berger e Vinícius Fernandes**, com foco no aprendizado de React, consumo de APIs REST e desenvolvimento de interfaces web.
